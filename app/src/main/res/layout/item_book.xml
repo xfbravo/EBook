@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/bookImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Book Cover"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_cover_image" />
+
+    <TextView
+        android:id="@+id/bookTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Book Title"
+        android:textSize="18sp"
+        android:paddingStart="8dp"
+        android:gravity="center"/>
+</LinearLayout>

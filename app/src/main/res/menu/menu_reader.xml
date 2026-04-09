@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_font_size"
+        android:title="字体大小" />
+    <item android:id="@+id/menu_theme" android:title="切换模式"/>
+    <item android:id="@+id/menu_chapters" android:title="选择章节"/>
+</menu>
+
