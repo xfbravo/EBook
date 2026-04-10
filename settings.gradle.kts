@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "E-BookReader_Fixed"
+rootProject.name = "EBook"
 include(":app")
  
